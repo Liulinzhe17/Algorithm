@@ -4,5 +4,6 @@
         <page name='50. Pow(x, n)'/>
         <page name='771. Jewels and Stones'/>
         <page name='461. Hamming Distance'/>
+        <page name='338. Counting Bits'/>
     </pages>
 </playground>

@@ -14,7 +14,7 @@ class Solution {
 //                result += 1
 //            }
 //            res2 = res2 >> 1
-            res2 &= res2 - 1
+            res2 &= res2 - 1 //将二进制最低位为1的数换成0
             result += 1
         }
         
