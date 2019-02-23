@@ -9,5 +9,8 @@
         <page name='283. Move Zeroes'/>
         <page name='344. Reverse String'/>
         <page name='448. Find All Numbers Disappeared in an Array'/>
+        <page name='70. Climbing Stairs'/>
+        <page name='155. Min Stack'/>
+        <page name='172. Factorial Trailing Zeroes'/>
     </pages>
 </playground>
