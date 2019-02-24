@@ -12,5 +12,10 @@
         <page name='70. Climbing Stairs'/>
         <page name='155. Min Stack'/>
         <page name='172. Factorial Trailing Zeroes'/>
+        <page name='169. Majority Element'/>
+        <page name='229. Majority Element II'/>
+        <page name='21. Merge Two Sorted Lists'/>
+        <page name='53. Maximum Subarray'/>
+        <page name='581. Shortest Unsorted Continuous Subarray'/>
     </pages>
 </playground>
