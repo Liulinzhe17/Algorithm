@@ -17,5 +17,6 @@
         <page name='21. Merge Two Sorted Lists'/>
         <page name='53. Maximum Subarray'/>
         <page name='581. Shortest Unsorted Continuous Subarray'/>
+        <page name='617. Merge Two Binary Trees'/>
     </pages>
 </playground>
