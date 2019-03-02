@@ -25,5 +25,12 @@
         <page name='101. Symmetric Tree'/>
         <page name='121. Best Time to Buy and Sell Stock'/>
         <page name='234. Palindrome Linked List'/>
+        <page name='572. Subtree of Another Tree'/>
+        <page name='20. Valid Parentheses'/>
+        <page name='198. House Robber'/>
+        <page name='438. Find All Anagrams in a String'/>
+        <page name='160. Intersection of Two Linked Lists'/>
+        <page name='141. Linked List Cycle'/>
+        <page name='437. Path Sum III'/>
     </pages>
 </playground>
