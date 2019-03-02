@@ -24,5 +24,6 @@
         <page name='543. Diameter of Binary Tree'/>
         <page name='101. Symmetric Tree'/>
         <page name='121. Best Time to Buy and Sell Stock'/>
+        <page name='234. Palindrome Linked List'/>
     </pages>
 </playground>
