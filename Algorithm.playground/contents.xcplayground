@@ -32,5 +32,6 @@
         <page name='160. Intersection of Two Linked Lists'/>
         <page name='141. Linked List Cycle'/>
         <page name='437. Path Sum III'/>
+        <page name='fastSort'/>
     </pages>
 </playground>
