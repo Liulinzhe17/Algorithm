@@ -21,11 +21,12 @@ class Solution {
                     j -= 1
                 }
             }
-            x = arr[i]
+            arr[i] = x
             fastSort(&arr, l: l, r: i - 1)
             fastSort(&arr, l: i + 1, r: r)
         }
     }
 }
 
-//Solution.fastSort(&[0,3,5,6,2,4], l: 0, r: 5)
+var ar = [0,3,5,6,6,2,4]
+Solution.fastSort(&ar, l: 0, r: ar.count-1)
