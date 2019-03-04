@@ -3,7 +3,7 @@ class Solution {
         if l < r {
             var i = l
             var j = r
-            var x = arr[l]
+            let x = arr[l]
             while i < j {
                 while i < j && arr[j] >= x { // 从右到左找小于基准数的索引
                     j -= 1

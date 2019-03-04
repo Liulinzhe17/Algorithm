@@ -33,5 +33,6 @@
         <page name='141. Linked List Cycle'/>
         <page name='437. Path Sum III'/>
         <page name='fastSort'/>
+        <page name='26. Remove Duplicates from Sorted Array'/>
     </pages>
 </playground>
