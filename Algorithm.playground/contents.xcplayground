@@ -34,5 +34,6 @@
         <page name='437. Path Sum III'/>
         <page name='fastSort'/>
         <page name='26. Remove Duplicates from Sorted Array'/>
+        <page name='83. Remove Duplicates from Sorted List'/>
     </pages>
 </playground>
