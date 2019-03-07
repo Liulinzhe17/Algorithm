@@ -36,5 +36,6 @@
         <page name='26. Remove Duplicates from Sorted Array'/>
         <page name='83. Remove Duplicates from Sorted List'/>
         <page name='78. Subsets'/>
+        <page name='287. Find the Duplicate Number'/>
     </pages>
 </playground>
