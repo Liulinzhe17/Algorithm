@@ -37,5 +37,7 @@
         <page name='83. Remove Duplicates from Sorted List'/>
         <page name='78. Subsets'/>
         <page name='287. Find the Duplicate Number'/>
+        <page name='1002. Find Common Characters'/>
+        <page name='509. Fibonacci Number'/>
     </pages>
 </playground>
