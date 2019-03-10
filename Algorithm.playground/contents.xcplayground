@@ -39,5 +39,6 @@
         <page name='287. Find the Duplicate Number'/>
         <page name='1002. Find Common Characters'/>
         <page name='509. Fibonacci Number'/>
+        <page name='561. Array Partition I'/>
     </pages>
 </playground>
