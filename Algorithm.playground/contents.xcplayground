@@ -43,5 +43,6 @@
         <page name='746. Min Cost Climbing Stairs'/>
         <page name='412. Fizz Buzz'/>
         <page name='303. Range Sum Query - Immutable'/>
+        <page name='877. Stone Game'/>
     </pages>
 </playground>
