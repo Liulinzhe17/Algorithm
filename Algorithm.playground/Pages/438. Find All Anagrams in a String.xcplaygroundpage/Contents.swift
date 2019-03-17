@@ -15,48 +15,51 @@ class Solution {
         }
         let sarr:[Character] = Array(s)
         let parr:[Character] = Array(p)
-        let plength = parr.count
+        var count = parr.count
         var result = Array<Int>()
+        var map = Dictionary<Character, Int>()
         
-        for i in 0...sarr.count - plength {
-            if isAnagram(String(sarr[i..<plength+i]), String(parr)) {
-                result.append(i)
+        for p in parr {
+            if map[p] == nil {
+                map[p] = 0
             }
+            map[p]! += 1
+        }
+        
+        var left = 0
+        var right = 0
+        
+        while right < sarr.count {
+            if map[sarr[right]] == nil {
+                map[sarr[right]] = 0
+            }
+            map[sarr[right]]! -= 1
+            
+            if map[sarr[right]]! > 0 {
+                count -= 1
+            }
+            right += 1
+            
+            if count == 0 {
+                result.append(left)
+            }
+            
+            if right - left == parr.count {
+                if map[sarr[left]] == nil {
+                    map[sarr[left]] = 0
+                }
+                map[sarr[left]]! += 1
+                if map[sarr[left]]! >= 0 {
+                    left += 1
+                    count += 1
+                }
+            }
+            
         }
         
         return result
     }
     
-    func isAnagram(_ str1: String, _ str2: String) -> Bool {
-        guard str1.count == str2.count else {
-            return false
-        }
-        
-        if str1 == str2 {
-            return true
-        }
-    
-        var dic1 = Dictionary<Character, Int>()
-        for n in str1 {
-            let count = dic1[n] ?? 0
-            dic1[n] = count + 1
-        }
-        
-        for n in str2 {
-            if dic1[n] == nil {
-                return false
-            }
-            dic1[n]! -= 1
-        }
-        
-        for n in dic1.values {
-            if n != 0 {
-                return false
-            }
-        }
-        
-        return true
-    }
 }
 
 var temp = Solution()
