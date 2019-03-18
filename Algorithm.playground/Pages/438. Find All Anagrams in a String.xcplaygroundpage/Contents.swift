@@ -33,11 +33,11 @@ class Solution {
             if map[sarr[right]] == nil {
                 map[sarr[right]] = 0
             }
-            map[sarr[right]]! -= 1
             
             if map[sarr[right]]! > 0 {
                 count -= 1
             }
+            map[sarr[right]]! -= 1
             right += 1
             
             if count == 0 {
@@ -48,11 +48,11 @@ class Solution {
                 if map[sarr[left]] == nil {
                     map[sarr[left]] = 0
                 }
-                map[sarr[left]]! += 1
                 if map[sarr[left]]! >= 0 {
-                    left += 1
                     count += 1
                 }
+                map[sarr[left]]! += 1
+                left += 1
             }
             
         }
