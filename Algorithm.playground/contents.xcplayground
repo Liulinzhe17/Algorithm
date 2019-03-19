@@ -46,5 +46,6 @@
         <page name='877. Stone Game'/>
         <page name='4. Median of Two Sorted Arrays'/>
         <page name='217. Contains Duplicate'/>
+        <page name='268. Missing Number'/>
     </pages>
 </playground>
