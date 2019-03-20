@@ -47,5 +47,6 @@
         <page name='4. Median of Two Sorted Arrays'/>
         <page name='217. Contains Duplicate'/>
         <page name='268. Missing Number'/>
+        <page name='41. First Missing Positive'/>
     </pages>
 </playground>
