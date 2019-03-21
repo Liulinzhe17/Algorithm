@@ -48,5 +48,7 @@
         <page name='217. Contains Duplicate'/>
         <page name='268. Missing Number'/>
         <page name='41. First Missing Positive'/>
+        <page name='765. Couples Holding Hands'/>
+        <page name='700. Search in a Binary Search Tree'/>
     </pages>
 </playground>
