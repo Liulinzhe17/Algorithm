@@ -52,5 +52,6 @@
         <page name='700. Search in a Binary Search Tree'/>
         <page name='965. Univalued Binary Tree'/>
         <page name='917. Reverse Only Letters'/>
+        <page name='872. Leaf-Similar Trees'/>
     </pages>
 </playground>
