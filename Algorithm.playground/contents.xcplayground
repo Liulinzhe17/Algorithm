@@ -54,5 +54,6 @@
         <page name='917. Reverse Only Letters'/>
         <page name='872. Leaf-Similar Trees'/>
         <page name='100. Same Tree'/>
+        <page name='993. Cousins in Binary Tree'/>
     </pages>
 </playground>
