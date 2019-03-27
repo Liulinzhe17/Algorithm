@@ -34,7 +34,22 @@ public class TreeNode {
 }
 
 class Solution {
+    
     func isCousins(_ root: TreeNode?, _ x: Int, _ y: Int) -> Bool {
+        var depthDic = Dictionary<Int,Int>()
+        var parentDic = Dictionary<Int, TreeNode>()
+        dfs(root, nil, &depthDic, &parentDic)
         
+        return depthDic[x] == depthDic[y] && parentDic[x]?.val != parentDic[y]?.val
+    }
+    
+    func dfs(_ root: TreeNode?, _ parent: TreeNode?, _ depthDic: inout [Int:Int], _ parentDic: inout [Int:TreeNode]) {
+        
+        if root != nil {
+            depthDic[root!.val] = parent != nil ? 1+depthDic[parent!.val]! : 0
+            parentDic[root!.val] = parent
+            dfs(root!.right, root, &depthDic, &parentDic)
+            dfs(root!.left, root, &depthDic, &parentDic)
+        }
     }
 }
