@@ -57,5 +57,6 @@
         <page name='993. Cousins in Binary Tree'/>
         <page name='112. Path Sum'/>
         <page name='404. Sum of Left Leaves'/>
+        <page name='66. Plus One'/>
     </pages>
 </playground>
