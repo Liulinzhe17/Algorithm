@@ -58,5 +58,6 @@
         <page name='112. Path Sum'/>
         <page name='404. Sum of Left Leaves'/>
         <page name='66. Plus One'/>
+        <page name='189. Rotate Array'/>
     </pages>
 </playground>
