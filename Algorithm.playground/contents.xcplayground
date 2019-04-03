@@ -59,5 +59,8 @@
         <page name='404. Sum of Left Leaves'/>
         <page name='66. Plus One'/>
         <page name='189. Rotate Array'/>
+        <page name='202. Happy Number'/>
+        <page name='383. Ransom Note'/>
+        <page name='7. Reverse Integer'/>
     </pages>
 </playground>
